@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Delhi Explorer</title>
+        <link rel="stylesheet"
+        href="style.css">
+    </head>
+    <body>
+        <header>
+            <h1>Delhi Explorer</h1>
+            <p>Discover the beauty of Delhi</p>
+        </header>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#places">Explore Places</a>
+            <a href="#about">About Us</a>
+        </nav>
+        <section id="Home">
+            <h2>Welcome to Delhi!</h2>
+            <p>Explore historical monuments, beautiful gardens, colourful markets and amazing places in Delhi.</p>
+            <button
+            onclick="showMessage()">Explore Now</button>
+        </section>
+        <section id="places">
+            <h2>Popular Places in Delhi</h2>
+            <input type="text" id="search"
+            placeholder="Search for a place..."
+            onkeyup="searchPlaces()">
+            <div class="places-container">
+            <div class="place-card">
+                <img src="images/india-gate.jpeg"
+                alt="India Gate">
+            <h3>India Gate</h3>
+            <p>A famous war memorial in New Delhi.</p>
+            </div>
+            <div class="place-card">
+                <img src="images/red-fort.jpeg"
+                alt="Red Fort">
+            <h3>Red Fort</h3>
+            <p>A historical monument known for Mughal architecture.</p>
+            </div>
+            <div class="place-card">
+                <img src="images/lodhi-garden.jpeg"
+                alt="Lodhi Garden">
+            <h3>Lodhi Garden</h3>
+            <p>A peaceful garden with greenery and historical tombs.</p>
+            </div>
+            <div class="place-card">
+                <img src="images/qutub-minar.jpeg"
+                alt="Qutub Minar">
+            <h3>Qutub Minar</h3>
+            <p>A UNESCO World Heritage Site known for its magnificiant architecture and historical importance</p>
+            </div>
+            <div class="place-card">
+                <img src="images/humayun-tomb.jpeg"
+                alt="Humayun's Tomb">
+            <h3>Humayun's Tomb</h3> 
+            <p>A beautiful Mughal monument surrounded by charbagh-style gardens.</p> 
+            </div> 
+            </div>      
+        </section>
+        <section id="about">
+            <h2>About Delhi Explorer</h2>
+            <p>Delhi Explorer is a simple website created to introduce some of the famous places in Delhi. It helps visitors explore monuments, gardens and beautiful destinations across the city.</p>
+        </section>
+        <footer>
+            <p>Copyright 2026 Delhi Explorer | Explore. Discover. Experience Delhi.</p>
+        </footer>
+        <script src="script.js"></script>
+    </body>
+</html>
