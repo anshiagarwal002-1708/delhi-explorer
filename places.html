@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Explore Places - Delhi Explorer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Explore Delhi</h1>
+        <p>Discover the historical beauty of Delhi.</p>
+    </header>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="places.html">Explore Places</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="about.html">About Us</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+
+    <section>
+        <h2>Famous Places in Delhi</h2>
+
+        <input type="text" id="search"
+        placeholder="Search for a monument..."
+        onkeyup="searchPlaces()">
+
+        <div class="places-container">
+
+            <div class="place-card">
+                <img src="images/india-gate.jpeg" alt="India Gate">
+                <h3>India Gate</h3>
+                <p>A famous war memorial located in New Delhi.</p>
+            </div>
+
+            <div class="place-card">
+                <img src="images/red-fort.jpeg" alt="Red Fort">
+                <h3>Red Fort</h3>
+                <p>A historic fort built by Mughal Emperor Shah Jahan.</p>
+            </div>
+
+            <div class="place-card">
+                <img src="images/lodhi-garden.jpeg" alt="Lodhi Garden">
+                <h3>Lodhi Garden</h3>
+                <p>A beautiful garden with historical monuments.</p>
+            </div>
+
+            <div class="place-card">
+                <img src="images/qutub-minar.jpeg" alt="Qutub Minar">
+                <h3>Qutub Minar</h3>
+                <p>A magnificent historical tower in Delhi.</p>
+            </div>
+
+            <div class="place-card">
+                <img src="images/humayun-tomb.jpeg" alt="Humayun's Tomb">
+                <h3>Humayun's Tomb</h3>
+                <p>A beautiful Mughal-era tomb in Delhi.</p>
+            </div>
+
+        </div>
+    </section>
+    <section>
+    <h2>Historical Monuments of Delhi</h2>
+    <table border="1" cellpadding="10" width="100%">
+        <tr>
+            <th>Monument</th>
+            <th>Location</th>
+            <th>Period</th>
+        </tr>
+        <tr>
+            <td>Red Fort</td>
+            <td>Old Delhi</td>
+            <td>Mughal</td>
+        </tr>
+        <tr>
+            <td>Qutub Minar</td>
+            <td>Mehrauli</td>
+            <td>Delhi Sultanate</td>
+        </tr>
+        <tr>
+            <td>Humayun's Tomb</td>
+            <td>Nizamuddin</td>
+            <td>Mughal</td>
+        </tr>
+        <tr>
+            <td>India Gate</td>
+            <td>New Delhi</td>
+            <td>British Era</td>
+        </tr>
+    </table>
+</section>
+    <footer>
+        <p>Copyright 2026 Delhi Explorer</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
